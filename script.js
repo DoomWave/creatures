@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function(){
             this.enemies = [];
             this.enemyInterval = 100;
             this.enemyTimer = 0;
-            this.enemyTypes = ['worm', 'ghost','spider'];
+            this.enemyTypes = ['worm', 'ghost'];
         }
         update(deltaTime){
             this.enemies = this.enemies.filter(object => !object.markedForDeletion);
